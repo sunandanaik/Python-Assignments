@@ -1,0 +1,24 @@
+#step-1 :TO create a class
+#Step-2 : Instantiate/creating of an object of that class
+class Person:
+    #attributes & methods
+    age=0
+    name=""
+
+    def greet(self):
+        print('Hello, Good evening!!!')
+
+ashish=Person()
+ashish.age=25
+ashish.name="Ashish Soni"
+ashish.greet()
+
+shaan=Person()
+shaan.age=20
+shaan.name="Shaan Mulgaonkar"
+shaan.greet()
+
+Max=Person()
+Max.age=18
+Max.name="Max DSouza"
+Max.greet()
